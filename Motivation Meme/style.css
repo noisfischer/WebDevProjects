@@ -1,0 +1,26 @@
+div{
+    background-color: black;
+    border: black solid 20px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 25%;
+}
+
+img{
+    border: white solid 3px
+}
+
+h1{
+    color: Yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+    margin: 0;
+}
