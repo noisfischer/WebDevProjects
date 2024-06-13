@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+
+  <!-- CSS positioning only by combining selectors and not using classes or id's -->
+
+  <style>
+    .flag{
+      background-color: red;
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
+
+    div > div{
+      background-color: darkblue;
+      height: 52%;
+      width: 100%;
+      position: absolute;
+    }
+
+    div > div > div{
+      border-radius: 100px;
+      background-color: white;
+      position: relative;
+      width: 18%;
+      left: 41%
+    }
+
+    div.flag > p{
+      color: white;
+      text-align: center;
+      font-size: 64px;
+    }
+
+    div > div > div > p{
+      font-size: 58px;
+      text-align: center;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
